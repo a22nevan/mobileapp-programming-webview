@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         myWebView = findViewById(R.id.webView);
         myWebView.setWebViewClient(new WebViewClient()); // Do not open in Chrome!
-        myWebView.loadUrl("https://his.se");
         myWebView.getSettings().setJavaScriptEnabled(true);
         ;
 
